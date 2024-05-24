@@ -1,0 +1,10 @@
+{
+    "manifest_version":2,
+    "name":"Extensify BE",
+    "author":"Sushant Nirphal",
+    "version":"1.0",
+    "description":"A cool browser extension",
+    "chrome_url_overrides":{
+       " newtab":"index.html"
+    }
+}
