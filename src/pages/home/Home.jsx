@@ -1,4 +1,5 @@
  import "./home.css"
+ import "../../Styles/utility.css"
  import { useBrowser } from "../../context/browser-context";
 
 export const Home = () => {
@@ -26,7 +27,7 @@ export const Home = () => {
       <div className="user-details d-flex direction-column gap align-center">
         <span className="heading-1">  Hello, What's your name ?</span>
         <form action="" onSubmit={handleFromSubmit}>
-        <input type="text" onKeyPress={handleNameChange} required />
+        <input type="text" onKeyPress={handleNameChange} required className="input" />
         </form>
       </div>
     </div>
